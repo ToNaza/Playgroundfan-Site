@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Playgroundfan Site</title>
+    <script src="./script.js" defer></script>
+    <link rel="icon" href="./media/header сайта построек.png">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Jura:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Kalam&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="header2">
+        <img src="./media/header сайта построек.png"/>
+        <p> Playgroundfan </p>
+    </div>
+    <div class="perevod">
+        <button class="uamov" onclick="switchLanguage('naUA')">Мова</button>
+        <button class="rumov" onclick="switchLanguage('naRU')">Язык</button>
+        <button class="usmov" onclick="switchLanguage('naUS')">Language</button>
+    </div>
+
+    <div class="main2">
+        <div class="naUA lang-section" id="naUA">
+            <p>Цікавлять різні моделі машин?<br>
+                Граєш в гру People Playground?<br>
+                На цьому каналі ти зможеш знайти купу копій справжніх автомобілів різних марок, купу машин з відеоігор та багато інших цікавих побудов.
+                <br><br>
+                Також ти можеш попросити побудувати свою автівку, і автор з часом випустить те, чого ти так сильно хотів (не забувай, що у автора є своє власне життя, тому 24/7 робити машини, особливо виключно твою, він не зможе).
+                <br><br>
+                Так що, цікавить? Тоді переходь нижче за посиланням. Також нижче ти можеш переглянути фото побудованих автівок з каналу. До зустрічі!</p>
+        </div>
+        <div class="naRU lang-section" id="naRU" style="display: none;">
+            <p>Интересуют разные модели машин?<br>
+                Играешь в игру People Playground?<br>
+                На этом канале ты сможешь найти кучу копий настоящих автомобилей разных марок, кучу машин из видеоигр и много других интересных построек.
+                <br><br>
+                Также ты можешь попросить построить свою машину, и автор со временем выпустит то, что ты так сильно хотел (не забывай, что у автора есть своя собственная жизнь, поэтому 24/7 делать машины, особенно исключительно твою, он не сможет).
+                <br><br>
+                Так что, интересует? Тогда переходи ниже по ссылке. Также ниже ты можешь посмотреть фото построенных машин с канала. До встречи!</p>
+        </div>
+        <div class="naUS lang-section" id="naUS" style="display: none;">
+            <p>Interested in different car models?<br>
+                Do you play People Playground?<br>
+                On this channel, you can find a bunch of copies of real cars of various brands, a bunch of cars from video games, and many other interesting builds.
+                <br><br>
+                You can also request to build your own car, and the author will eventually release what you wanted so much (remember, the author has his own life, so he can't make cars 24/7, especially just for you).
+                <br><br>
+                So, interested? Then follow the link below. You can also view photos of built cars from the channel below. See you!</p>
+        </div>
+    </div>
+
+    <div class="slider">
+        <div class="slider-container">
+            <div class="slide"><img src="./media/машина1.png" alt="Image 1"></div>
+            <div class="slide"><img src="./media/Машина2.png" alt="Image 2"></div>
+            <div class="slide"><img src="./media/Машина3.png" alt="Image 3"></div>
+            <div class="slide"><img src="./media/Машина4.png" alt="Image 4"></div>
+            <div class="slide"><img src="./media/Машина5.png" alt="Image 4"></div>
+            <div class="slide"><img src="./media/Машина6.png" alt="Image 4"></div>
+            <div class="slide"><img src="./media/Машина7.png" alt="Image 4"></div>
+        </div>
+        <button class="prev" onclick="changeSlide(-1)">&#10094;</button>
+        <button class="next" onclick="changeSlide(1)">&#10095;</button>
+    </div>
+
+    <footer>
+
+        <div class="naUA lang-section" id="naUA">
+            <p class="klatc"> Клац, і ти вже приєднався до нашого суспільства.</p>
+        </div>
+
+
+        <div class="naRU lang-section" id="naRU" style="display: none;">
+            <p class="klatc"> Щелчок, и ты уже присоединился к нашему обществу.</p>
+        </div>
+
+
+        <div class="naUS lang-section" id="naUS" style="display: none;">
+            <p class="klatc"> Click, and you have already joined our society.</p>
+        </div>
+
+
+        
+
+
+        <div class="kanal" onclick="location.href='https://t.me/peoplejdvjdvdndjb'" id="rotating-div">
+            <img src="./media/header сайта построек.png">
+           <div class="naUA lang-section" id="naUA">
+             <p>Канал з будовами </p>
+        </div>
+
+
+        <div class="naRU lang-section" id="naRU" style="display: none;">
+            <p style="font-size: 26px;">Канал с постройками</p>
+        </div>
+
+
+        <div class="naUS lang-section" id="naUS" style="display: none;">
+            <p>Building Channel</p>
+        </div>
+        </div>
+
+        <div class="chat" onclick="location.href='https://t.me/peopletelegramm'" id="second-rotating-div">
+            <img src="./media/Чат построек.png">
+            <div class="naUA lang-section" id="naUA">
+                <p>Чатик/Коментарі </p>
+           </div>
+   
+   
+           <div class="naRU lang-section" id="naRU" style="display: none;">
+               <p>Чатик/Коментарії</p>
+           </div>
+   
+   
+           <div class="naUS lang-section" id="naUS" style="display: none;">
+               <p>Chat/Comments</p>
+           </div>
+        </div>
+    </footer>
+</body>
+</html>
+
+
