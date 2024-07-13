@@ -69,7 +69,7 @@ footer{
     margin: auto;
    display: inline-block;
    margin-top: 50px;
-   =
+   
 }
 
 
@@ -237,8 +237,4 @@ cursor: pointer
         cursor: pointer;
         color: rgb(0, 0, 0);
         border: 2px solid rgb(0, 0, 0);
-    }
-
-    .footer{
-        
     }
